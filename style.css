@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #131922;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+.nav-logo{
+    height: 55px;
+    width: 135px;
+}
+
+/*********************nav logo***********************/
+.logo{
+    background-image: url(amazonlogocss.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border: 1.3px solid transparent;
+}
+.border:hover{
+    border: 1.3px solid white;
+}
+
+/****************************delivertoindia styling********************/
+.delivery{
+    margin-left: 15px;
+    margin-right: 30px;
+    
+}
+.nav-deliver{
+    color: #cccc;
+    font-size: 0.85rem;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.nav-india{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.pinicon{
+    display: flex;
+    align-items: center;
+
+}
+
+/*************searchbar styling**************/
+.navsearch{
+    display: flex;
+    align-items: center;
+    cursor: auto;
+}
+
+.all-sort{
+    height: 45px;
+    width: 80px;
+    border: none;
+    background-color: #e6e6e6;
+    color: #585757;
+    border-top-left-radius: 3.5px;
+    border-bottom-left-radius: 3.5px;
+    cursor: pointer;
+}
+.searchbar{
+    height: 40px;
+    width: 550px;
+    font-size: 17px;    
+}
+.searchicon{
+    background-color: #febd69;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #131922;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius: 3.5px;
+    border-bottom-right-radius: 3.5px;
+    font-size: 24px;
+}
+.navsearch:hover{
+    border: 2px solid #febd69;
+}
+
+/*********************lang en styling*******************/
+.nav-right {
+    height: 3em;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 15px;
+}
+.border{
+    border: 1.3px solid transparent;
+}
+.border:hover{
+    border: 1.3px solid white;
+}
+.ind,
+.sign,
+.return,
+.card {
+    padding: .3em .5em;
+    margin: .25em;
+}
+.ind {
+    display: flex;
+    width: 3.5em;
+    padding: .6em .4em;
+}
+.ind img {
+    width: 1.8em;
+    padding-right: .2em;
+}
+.ind i {
+    margin: 2.5px;
+}
+
+/***********************signin-box styling*********************/
+.border{
+    border: 1.3px solid transparent;
+}
+.border:hover{
+    border: 1.3px solid white;
+}
+.signinbox{
+    font-size: 0.7rem;
+    font-weight: 400;
+    cursor: pointer;;
+}
+.accbox{
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/*********************return/orders-styling*******************/
+.returndiv{
+    margin-left: 15px;
+    cursor: pointer;
+}
+.border{
+    border: 1.3px solid transparent;
+}
+.border:hover{
+    border: 1.3px solid white;
+}
+.returnbox{
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+.orderbox{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.navcart{
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/***********cart styling**************/
+.navcart i{
+    font-size: 25px;
+}
+.border{
+    border: 1.3px solid transparent;
+}
+.border:hover{
+    border: 1.3px solid white;
+}
+
+/*********************panel-styling******************/
+.panel{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #222f3e;
+    color: white;
+    font-size: 0.9rem;
+}
+.panelops p {
+    display: inline;
+    justify-content: space-evenly;
+    margin-left: 13px;
+}
+.border{
+    border: 1.3px solid transparent;
+}
+.border:hover{
+    border: 1.3px solid white;
+}
+.panelall{
+    margin-left: 20px;
+    margin-right: 3px;
+    font-weight: 750;
+}
+
+/******************************herosection****************************/
+.herosection{
+    background-image: url(amazonherosection.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+/*******************************shopsection-styling*************************************/
+.gradientsection{
+    background:linear-gradient(#f8d1a5, rgb(236, 234, 234));
+}
+
+.shopsection1{
+    display: flex;
+    justify-content: space-evenly
+}
+.box{
+    height: 420px;
+    width: 23.5%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box1content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box1img{
+    background-image: url(azbox1.jpg);
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box1content a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.box2content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box2img{
+    background-image: url(azbox2.jpg);
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+.box2content a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.box3content{
+    margin-left: 1rem;
+    margin-right: 2.5rem;
+}
+.box3img{
+    background-image: url(azbox3.jpg);
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box3content a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.box4content{
+    margin-left: 1rem;
+    margin-right: 2.5rem;
+}
+.box4img{
+    background-image: url(azbox4.jpg);
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box4content a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.shopsection2{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.box-2{
+    height: 420px;
+    width: 23.5%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box5content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box5img{
+    background-image: url(azbox5.jpg);
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box5content a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.box6content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box6img{
+    background-image: url(azbox6.jpg);
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box6content a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.box7content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box7img{
+    background-image: url(azbox7.jpg);
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box7content a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.box8content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box8img{
+    background-image: url(az-box8.jpg);
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box8content a {
+    color: #007185;
+    text-decoration: none;
+}
+/*******************scrollsection styling******************/
+.scrollsection{
+    height: 300px;
+    width: 80%;
+}
+
+.sec{
+    width: 98%;
+    height: 320px;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.scrolltext{
+    display: flex;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.scrolltext2{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 3px;
+    color: #007185
+}
+
+.scrollimg{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+.container{
+    margin-left: 1rem;
+    
+
+}
+.scrollbox1{
+    background-image: url(scrollbox1.jpg);
+    height: 200px;
+    width: 196px;   
+    background-size: cover;
+}
+.scrollbox2{
+    background-image: url(scrollbox2.jpg);
+    height: 200px;
+    width: 196px;
+    background-size: cover;
+}
+.scrollbox3{
+    background-image: url(scrollbox3.jpg);
+    height: 200px;
+    width: 196px;
+    background-size: cover;
+}
+.scrollbox4{
+    background-image: url(scrollbox4.jpg);
+    height: 200px;
+    width: 196px;
+    background-size: cover;
+}
+.scrollbox5{
+    background-image: url(scrollbox5.jpg);
+    height: 200px;
+    width: 196px;
+    background-size: cover;
+}
+.scrollbox6{
+    background-image: url(scrollbox6.jpg);
+    height: 200px;
+    width: 196px;
+    background-size: cover;
+}
+
+/*******************footer styling******************/
+.footer {
+    margin-top: 15px;
+}
+.panel1{
+    background-color:#38475a;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 52px;
+    display: flex;
+    font-size: 0.85rem;
+}
+.panel2{
+    background-color: #222f3e;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a {
+    display: block;
+    cursor: pointer;
+    font-size: 0.85rem;
+    margin-top: 12px;
+    color: #dddd;
+}
+ul {
+    margin-top: 22px;
+}
+.panel3{
+    background-color: #222f3e;
+    color: white;
+    border-top: 0.3px solid rgb(135, 127, 127);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panelogo{
+    background-image: url(amazonlogofooter.png);
+    height: 54px;
+    width: 100px;
+    background-size: cover;
+}
+.engpanel{
+    height: 20px;
+    width: 90px;
+    padding: 6px 8px;
+    border: 1px solid #dddd;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    color: #dddd;
+}
+.panel4{
+    height: 200px;
+    background-color: #131922;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 8px;
+}
+.panel4 a {
+    color: #dddd;
+    font-size: 0.85rem;
+    margin-top: 5px;
+    text-decoration: none;
+}
+.azm1{
+    margin-top: 20px;
+}
+.azm2{
+    margin-top: 20px;
+}
+.azm3{
+    margin-top: 20px;
+}
+.azm4{
+    margin-top: 20px;
+}
+.panel5{
+    height: 40px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    background-color: #131922;
+    color: white;
+    justify-content: space-evenly;
+    display: center;
+    text-align: center;
+}
+
